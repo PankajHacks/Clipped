@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Clipped</string>
+    <string name="edit_text">Enter Text</string>
+    <string name="synch_file_button">Save</string>
+    <string name="signed_in_format">Signed in as %s</string>
+    <string name="signed_out">Not Signed In</string>
+    <string name="loading">Please Wait. Loading...</string>
+    <string name="action_sign_out">SIGN OUT</string>
+    <string name="action_delete_everything">DELETE EVERYTHING</string>
+    <string name="delete_everything">Delete Everything</string>
+    <string name="delete_everything_message">Are you sure  you want to delete everything?</string>
+    <string name="share">share</string>
+    <string name="action_delete">delete</string>
+</resources>

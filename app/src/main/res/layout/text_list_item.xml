@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+
+    android:backgroundTint="@color/cardview_light_background">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/cardview_default_elevation">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="4dp"
+            android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/clipped_text_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="some text to copy"
+                    android:padding="4dp"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/primary_text_light"/>
+
+                <TextView
+                    android:id="@+id/time_stamp_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Saturday,22:43"
+                    android:layout_below="@+id/clipped_text_textview"
+                    android:textSize="14sp"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@android:color/secondary_text_dark"
+                    android:paddingTop="4dp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/clipped_text_textview"
+                    android:padding="4dp">
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/clip_share_button"
+                        android:src="@android:drawable/ic_menu_share"
+                        android:tint="@android:color/darker_gray"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/clip_delete_button"
+                        android:src="@android:drawable/ic_menu_delete"
+                        android:tint="@android:color/darker_gray"
+                        style="?android:attr/borderlessButtonStyle" />
+                </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
