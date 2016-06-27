@@ -4,7 +4,7 @@ Clipped
 
 - Clipped is an unified Clipboard for android.
 - You will need a google account to sign up.
-- Copying any text adds it your databse and you can access all your clips with the app.
+- Copying any text adds it your databse and you can access all your clips with the Clipped app on all of your devices.
 - New clips can also directly be added from the app itself.
 - Tapping on any clip adds it to your clipboard which can be pasted anywhere.
 - Current version can be downloaded from [Release](https://github.com/PankajHacks/Clipped/tree/master/Release) folder.
